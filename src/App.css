@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: rgb(52, 52, 231);
+  width: 100%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  
+
+}
+
+.passBox{
+  border-radius: 6px;
+  width: 300px;
+  background-color: rgb(3, 3, 97);
+  height: 280px;
+}
+
+.passBoxin{
+  display: flex;
+
+}
+.passBoxin input{
+  flex-basis: 80%;
+  padding-left: 5px;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-style: normal;
+  text-shadow: 1ch;
+  
+}
+.passBoxin button{
+  flex-basis: 20%;
+  padding: 5px 0px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.passBoxin b{
+  font-size: 1.2rem;
+  
+}
+.head{
   color: white;
+  text-align: center;
+  justify-content: center;
+
+}
+.passlen{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;;
+}
+.passlen input{
+  width: 60px;
+  padding: 10px 0px;
+}
+.btn{
+  
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 80px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
